@@ -32,8 +32,8 @@ A simple and efficient URL shortening service that converts long URLs into short
     npm install
 
  # Install client dependencies
-   cd ../client
-   npm install
+    cd ../client
+    npm install
 
 4. Set up your MySQL database and update the database connection details in the server/config/db.js file.
 
