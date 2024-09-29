@@ -28,22 +28,26 @@ A simple and efficient URL shortening service that converts long URLs into short
    Install dependencies for both client and server:
 
 3. Install server dependencies
-cd server
-npm install
+ ```bash
+ cd server
+ npm install
 
 # Install client dependencies
-cd ../client
-npm install
+ ```bash
+ cd ../client
+ npm install
 
 4. Set up your MySQL database and update the database connection details in the server/config/db.js file.
 
 # Start the server:
-cd server
-npm start
+ ```bash
+ cd server
+ npm start
 
 # Start the client:
-cd ../client
-npm start
+ ```bash
+ cd ../client
+ npm start
 
 ## The application will be running at:
 Front-end: http://localhost:3000
