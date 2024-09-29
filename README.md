@@ -25,13 +25,13 @@ A simple and efficient URL shortening service that converts long URLs into short
    git clone https://github.com/Hritika-Ratnam/Short_URL.git
 2. Navigate to the project directory:
     cd url-shortener
-   Install dependencies for both client and server:
+4. Install dependencies for both client and server:
 
-3. Install server dependencies
+ # Install server dependencies
     cd server
     npm install
 
- Install client dependencies
+ # Install client dependencies
    cd ../client
    npm install
 
