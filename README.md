@@ -28,12 +28,10 @@ A simple and efficient URL shortening service that converts long URLs into short
    Install dependencies for both client and server:
 
 3. Install server dependencies
- ```bash
 cd server
 npm install
 
 # Install client dependencies
- ```bash
 cd ../client
 npm install
 
