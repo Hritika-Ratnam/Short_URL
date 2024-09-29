@@ -27,18 +27,19 @@ A simple and efficient URL shortening service that converts long URLs into short
     cd url-shortener
    Install dependencies for both client and server:
 
-bash
-Copy code
-# Install server dependencies
+3. Install server dependencies
+ ```bash
 cd server
 npm install
 
 # Install client dependencies
+ ```bash
 cd ../client
 npm install
-Set up your MySQL database and update the database connection details in the server/config/db.js file.
 
-# Start the server:
+4. Set up your MySQL database and update the database connection details in the server/config/db.js file.
+
+# Start the serv
 cd server
 npm start
 
@@ -46,19 +47,21 @@ npm start
 cd ../client
 npm start
 
-## The application will be running at http://localhost:3000 for the front-end and http://localhost:5000 for the back-end API.
+## The application will be running at:
+Front-end: http://localhost:3000
+Back-end API: http://localhost:5000
 
 # Usage
-**Enter a long URL into the input field on the homepage**
-**Click the "Shorten" button to generate a shortened URL**
-**Use the shortened URL to quickly redirect to the original long URL**
+Enter a long URL into the input field on the homepage
+Click the "Shorten" button to generate a shortened URL
+Use the shortened URL to quickly redirect to the original long URL
 
 # Future Scope
-**URL analytics and tracking**
-**Expiration and custom URL shortening**
-**Improved security (CAPTCHA, OAuth integration)**
-**Mobile application support**
-**API monetization**
+URL analytics and tracking
+Expiration and custom URL shortening
+Improved security (CAPTCHA, OAuth integration)
+Mobile application support
+API monetization
 
    
    
