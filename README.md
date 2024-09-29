@@ -37,13 +37,11 @@ npm install
 
 4. Set up your MySQL database and update the database connection details in the server/config/db.js file.
 
-Start the serv
-```bash
+# Start the server:
 cd server
 npm start
 
-Start the client:
-```bash
+# Start the client:
 cd ../client
 npm start
 
@@ -52,16 +50,16 @@ Front-end: http://localhost:3000
 Back-end API: http://localhost:5000
 
 # Usage
-- Enter a long URL into the input field on the homepage
-- Click the "Shorten" button to generate a shortened URL
-- Use the shortened URL to quickly redirect to the original long URL
+- **Enter a long URL** into the input field on the homepage
+- **Click the "Shorten" button** to generate a shortened URL
+- **Use the shortened URL** to quickly redirect to the original long URL
 
 # Future Scope
-- URL analytics and tracking
-- Expiration and custom URL shortening
-- Improved security (CAPTCHA, OAuth integration)
-- Mobile application support
-- API monetization
+- **URL analytics and tracking**
+- **Expiration and custom URL shortening**
+- **Improved security (CAPTCHA, OAuth integration)**
+- **Mobile application support**
+- **API monetization**
 
    
    
