@@ -22,28 +22,28 @@ A simple and efficient URL shortening service that converts long URLs into short
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/Hritika-Ratnam/Short_URL.git
 2. Navigate to the project directory:
     cd url-shortener
    Install dependencies for both client and server:
 
 3. Install server dependencies
- cd server
- npm install
+    cd server
+    npm install
 
-# Install client dependencies
- cd ../client
- npm install
+ Install client dependencies
+   cd ../client
+   npm install
 
 4. Set up your MySQL database and update the database connection details in the server/config/db.js file.
 
-# Start the server:
- cd server
- npm start
+  # Start the server:
+    cd server
+    npm start
 
-# Start the client:
- cd ../client
- npm start
+ # Start the client:
+    cd ../client
+    npm start
 
 ## The application will be running at:
 Front-end: http://localhost:3000
